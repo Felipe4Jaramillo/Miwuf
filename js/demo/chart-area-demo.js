@@ -126,8 +126,7 @@ var ctx = document.getElementById("mySecondAreaChart");
 var mySecondLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011",
-    "2012","2013","2014","2015","2016","2017","2018","2019","2020",],
+    labels: ["1990", "2000", "2010", "2015"],
     datasets: [{
       label: "Earnings",
       lineTension: 0.3,
@@ -141,8 +140,7 @@ var mySecondLineChart = new Chart(ctx, {
       pointHoverBorderColor: "rgba(78, 115, 223, 1)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [265000, 315120, 315120, 315120, 315120, 315120, 238361, 238361, 238361, 238361, 282027, 166070, 166070,
-       120934, 140356, 124036, 178597, 170000, 150000, 120000, 100000 ],
+      data: [6870, 21560, 8540, 680],
     }],
   },
   options: {
